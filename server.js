@@ -15,6 +15,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Backend is running successfully!");
+});
+
+
 app.use("/api/auth", authRoutes);
 app.use("/api/courses", courseRoutes);
 app.use("/api/enroll", enrollmentRoutes);
@@ -33,3 +38,4 @@ mongoose
   .catch((err) => {
     console.error("Mongo connection error:", err);
   });
+
