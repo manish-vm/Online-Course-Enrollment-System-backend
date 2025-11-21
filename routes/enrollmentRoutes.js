@@ -1,4 +1,3 @@
-// backend/routes/enrollmentRoutes.js
 import express from "express";
 import {
   enrollCourse,

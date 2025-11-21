@@ -1,4 +1,3 @@
-// backend/controllers/enrollmentController.js
 import Enrollment from "../models/Enrollment.js";
 
 // POST /api/enroll

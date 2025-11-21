@@ -1,4 +1,3 @@
-// backend/routes/adminRoutes.js
 import express from "express";
 import {
   getAdminSummary,

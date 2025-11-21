@@ -1,5 +1,3 @@
-
-
 import jwt from "jsonwebtoken";
 
 // Middleware to verify JWT token

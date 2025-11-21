@@ -1,4 +1,3 @@
-// backend/routes/courseRoutes.js
 import express from "express";
 import {
   getAllCourses,

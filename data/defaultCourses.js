@@ -1,5 +1,3 @@
-// backend/data/defaultCourses.js
-
 const defaultCourses = [
   {
     title: "The AI Engineer Course 2025",
